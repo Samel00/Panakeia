@@ -1,0 +1,14 @@
+@import 'normalize/import-now';
+
+@import 'utils/variables';
+
+@import 'base/basic';
+@import "base/components/textGroup";
+@import "layout/blockOurWork";
+@import "layout/blockOurNews";
+@import "layout/blockNewsLetter";
+@import "layout/blockOther";
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/home';

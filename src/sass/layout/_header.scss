@@ -1,0 +1,53 @@
+.block-header{
+  margin: auto;
+
+  h1{
+    margin-top: 0;
+    margin-bottom: 0;
+
+    img{
+      float: left;
+      width: 200px;
+      height: 75px;
+     margin: 15px 0 15px 50px;
+    }
+  }
+  ul{
+
+    float: right;
+    display: block;
+    margin-right: 15px;
+    margin-top: 40px;
+    li{
+
+
+      display: inline-block;
+
+
+      }
+      a{
+        margin: 0 13px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+
+
+        &:hover{
+          top: 0;
+
+          color: #31353e;
+          padding: 17px 25px;
+          border: 1px solid #dd4b2b;
+          border-radius: 25px;
+          background-color: #dd4b2b;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 815px) {
+  .block-header ul{
+    display: none;
+  }
+
+}

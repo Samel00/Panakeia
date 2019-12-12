@@ -1,0 +1,129 @@
+.block-our-work{
+  color: #ffffff;
+  text-align: center;
+  clear: both;
+  .head{
+
+    h2{
+      margin: 0;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+      padding-top:50px;
+
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 48px;
+
+    }
+    span{
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+
+      font-size: 20px;
+      font-weight: 700;
+    }
+    @media all and (max-width: 815px) {
+      h2{
+
+        padding-top: 20px;
+      }
+    }
+
+  }
+  .picture{
+    margin: auto;
+    width: 303px;
+    img{
+
+      margin-top: 20px;
+    }
+    h3{
+      padding-top: 20px;
+      margin: 0;
+      text-align: center;
+    }
+    p{
+      margin-bottom: 20px;
+    }
+  }
+  a{
+    width: 213px;
+    height: 54px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 27px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: #ffffff;
+    &:hover{
+      background-color: #dd4b2b;
+      color: #ffffff;
+    }
+  }
+  .laptop{
+    ul{
+      display: block;
+    }
+    li{
+      display: inline-block;
+      vertical-align: top;
+    }
+
+  }
+  @media all and (max-width: $breakpoint-mobile-our-work) {
+    .laptop{
+      display: none;
+    }
+  }
+  @media all and (min-width: $breakpoint-laptop-our-work) {
+    a{
+      padding: 19px 60px 21px 63px;
+      color: #612316;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      &:hover{
+        border-radius: 25px;
+        background-color: #dd4b2b;
+        color: #ffffff;
+      }
+    }
+    .mobile {
+      display: none;
+
+      a {
+        margin-bottom: 138px;
+
+      }
+    }
+    .head {
+      h2 {
+        padding-top: 489px;
+        font-size: 72px;
+        font-weight: 300;
+      }
+
+      span {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 48px;
+      }
+
+    }
+    .picture {
+      h3 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 24px;
+      }
+
+      p {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 30px;
+      }
+
+    }
+    ul {
+      margin: 79px;
+    }
+  }
+}
+
